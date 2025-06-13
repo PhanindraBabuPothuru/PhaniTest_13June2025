@@ -74,13 +74,14 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>TA_Test.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="TC_Sample" sap:VirtualizedContainerService.HintSize="1276,1199" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="i">
         <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" Value="10" />
+          <Literal x:TypeArguments="x:Int32" Value="13" />
         </Variable.Default>
       </Variable>
       <Variable x:TypeArguments="x:String" Name="str_Val" />
